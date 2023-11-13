@@ -1,7 +1,7 @@
-# CSE370-project
-Theatre Ticket 
+# CSE370-Group-Project
+A theatre ticket management system connected to a database fully operated through a website.
 
-yasir
+Yasir
 25/3
   - obscured db logins and app secret key 
   - installed flask-wtf, wtforms for form building
