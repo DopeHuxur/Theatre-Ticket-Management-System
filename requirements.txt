@@ -1,0 +1,9 @@
+Flask
+gunicorn
+sqlalchemy
+pymysql
+flask_wtf
+wtforms
+email_validator
+flask_session
+stripe
