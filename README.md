@@ -1,23 +1,114 @@
-# CSE370-Group-Project
-A theatre ticket management system connected to a database fully operated through a website.
+<h1 align="center" id="title">Theatre Ticket Management System</h1>
 
-Yasir
-25/3
-  - obscured db logins and app secret key 
-  - installed flask-wtf, wtforms for form building
-  - basic signup for - no db manipulation yet
+<p align="center"><img src="https://socialify.git.ci/DopeHuxur/Theatre-Ticket-Management-System/image?custom_language=MySQL&amp;font=Bitter&amp;language=1&amp;name=1&amp;owner=1&amp;pattern=Plus&amp;theme=Dark" alt="project-image"></p>
 
-26/3
-  - implemented cards
+<p id="description">A web-based theatre ticket management system built with Flask and MySQL. This application provides a complete solution for managing movie listings ticket bookings and administrative functions through an intuitive web interface.</p>
 
-13/4
-  - added movie add, movie delete under /admin route
-  - obscured confirmation mail pass, stripe api key
+<h2>🚀 Demo</h2>
 
-@Sadat
-25/3
-  - ~Fixed Carousel~
-14/4
-  - Added 'Movie Details' Screen
-  - Added further columns and data to 'movies' table
-  - Connected database to 'Movie Detail' page
+[https://www.youtube.com/watch?v=dDRieVyl2WI](https://www.youtube.com/watch?v=dDRieVyl2WI)
+
+  
+  
+<h2>🧐 Features</h2>
+
+Here're some of the features of the project:
+
+*   <b>User Management:</b>
+      - User registration and authentication
+      - Secure login/logout functionality
+      - Email validation and confirmation
+*   <b>Movie Management:</b>
+      - Browse available movies with detailed information
+      - Movie details page with comprehensive information
+      - Admin panel for adding and deleting movies
+      - Dynamic movie carousel display
+*   <b>Ticket Booking:</b>
+      - Secure payment processing with Stripe integration
+      - Real-time seat availability
+      - Booking confirmation system
+*   <b>Administrative Features:</b>
+      - Admin dashboard for movie management
+      - Database operations for movie CRUD
+      - User session management
+*   <b>Security:</b>
+      - Encrypted database credentials
+      - Secure API key management
+      - Form validation with CSRF protection
+
+<h2>🛠️ Installation Steps:</h2>
+
+<p>1. Clone the repository</p>
+
+```
+git clone https://github.com/DopeHuxur/Theatre-Ticket-Management-System.git
+```
+
+```
+cd Theatre-Ticket-Management-System
+```
+
+<p>3. Create a virtual environment</p>
+
+```
+python -m venv venv
+```
+
+```
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+
+<p>5. Install dependencies</p>
+
+```
+pip install -r requirements.txt
+```
+
+<p>6. Set up environment variables</p>
+
+```
+Create a .env file in the root directory and add:
+```
+
+```
+DATABASE_URL=your_mysql_database_url
+```
+
+```
+SECRET_KEY=your_secret_key
+```
+
+```
+STRIPE_API_KEY=your_stripe_api_key
+```
+
+```
+MAIL_PASSWORD=your_email_password
+```
+
+<p>11. Initialize the database</p>
+
+```
+python database.py
+```
+
+<p>12. Run the application</p>
+
+```
+python main.py
+```
+
+  
+  
+<h2>💻 Built with</h2>
+
+Technologies used in the project:
+
+*   Backend: Python, Flask
+*   Database: MySQL with SQLAlchemy ORM
+*   Frontend: HTML, CSS, JavaScript
+*   Forms: Flask-WTF, WTForms
+*   Payment: Stripe API
+*   Session Management: Flask-Session
+*   Deployment: Replit
+*   Database Host: PlanetScale
