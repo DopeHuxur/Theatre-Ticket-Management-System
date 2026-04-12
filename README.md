@@ -104,11 +104,11 @@ python main.py
 
 Technologies used in the project:
 
-*   Backend: Python, Flask
-*   Database: MySQL with SQLAlchemy ORM
-*   Frontend: HTML, CSS, JavaScript
-*   Forms: Flask-WTF, WTForms
-*   Payment: Stripe API
-*   Session Management: Flask-Session
-*   Deployment: Replit
-*   Database Host: PlanetScale
+*   <b>Backend:</b> Python, Flask
+*   <b>Database:</b> MySQL with SQLAlchemy ORM
+*   <b>Frontend:</b> HTML, CSS, JavaScript
+*   <b>Forms:</b> Flask-WTF, WTForms
+*   <b>Payment:</b> Stripe API
+*   <b>Session Management:</b> Flask-Session
+*   <b>Deployment:</b> Replit
+*   <b>Database Host:</b> PlanetScale
