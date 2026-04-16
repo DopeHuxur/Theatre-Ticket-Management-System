@@ -1,4 +1,4 @@
-<h1 align="center" id="title">Theatre Ticket Management System</h1>
+<h1 align="center" id="title">Moonlight Projections: A Theatre Ticket Management System</h1>
 
 <p align="center"><img src="https://socialify.git.ci/DopeHuxur/Theatre-Ticket-Management-System/image?custom_language=MySQL&amp;font=Bitter&amp;language=1&amp;name=1&amp;owner=1&amp;pattern=Plus&amp;theme=Dark" alt="project-image"></p>
 
